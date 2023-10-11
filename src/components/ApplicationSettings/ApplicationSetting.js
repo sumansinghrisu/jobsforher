@@ -10,17 +10,18 @@ function ApplicationSetting() {
                     <h2>Receive job applications via</h2>
                     <form>
                         <div className="radio-option">
-                            <input type="radio" id="dashboardOnly" name="applicationMethod" checked/>
-                            <label htmlFor="dashboardOnly"></label>
-                            <span>Only on my dashboard</span>
+                            <input type="radio" id="dashboardOnly" name="applicationMethod" checked />
+                            <label htmlFor="dashboardOnly">
+                                <span>Only on my dashboard</span>
+                            </label>
                         </div>
                         <div className="radio-option">
                             <input type="radio" id="emailAndDashboard" name="applicationMethod" />
-                            <label htmlFor="emailAndDashboard"></label>
-                            <span>Email and on my dashboard</span>
+                            <label htmlFor="emailAndDashboard">
+                                <span>Email and on my dashboard</span>
+                            </label>
                         </div>
                     </form>
-
                     <div className='notes'>
                         <span>*Please note, this setting will not impact your old</span>
                     </div>
