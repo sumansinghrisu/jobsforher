@@ -16,8 +16,8 @@
 
 .menu-toggle {
     display: block;
-    background-color: #333;
-    color: white;
+    background-color: transparent; 
+    color: black; 
     border: none;
     font-size: 1.5rem;
 }
