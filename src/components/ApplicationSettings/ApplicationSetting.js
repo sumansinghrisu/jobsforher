@@ -10,7 +10,7 @@ function ApplicationSetting() {
                     <h2>Receive job applications via</h2>
                     <form>
                         <div className="radio-option">
-                            <input type="radio" id="dashboardOnly" name="applicationMethod" />
+                            <input type="radio" id="dashboardOnly" name="applicationMethod" checked/>
                             <label htmlFor="dashboardOnly"></label>
                             <span>Only on my dashboard</span>
                         </div>
