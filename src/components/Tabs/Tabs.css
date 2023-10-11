@@ -1,0 +1,34 @@
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid #dfdada;
+    text-align: center;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.tab:last-child {
+    border-right: none;
+}
+
+.tab:hover {
+    background-color: #f7f7f7;
+}
+
+.tab.active {
+    color: yellowgreen;
+    font-weight: bold;
+}
